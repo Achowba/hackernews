@@ -4,9 +4,9 @@ import './index.css';
 import App from './App';
 import registerServiceWorker from './registerServiceWorker';
 
-ReactDOM.render( 
+ReactDOM.render(
     <App/>, // First argument signifies what is to be rendered
-    document.getElementById('root'), // where it is to be rendered to    
+    document.getElementById('root'), // where it is to be rendered to
 );
 
 // check if autoreload is enabled

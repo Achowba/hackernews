@@ -5,13 +5,11 @@ import App from './App';
 import registerServiceWorker from './registerServiceWorker';
 
 ReactDOM.render(
-    <App/>, // First argument signifies what is to be rendered
-    document.getElementById('root'), // where it is to be rendered to
+    <App />,
+    document.getElementById('root')
 );
+registerServiceWorker();
 
-// check if autoreload is enabled
 if (module.hot) {
     module.hot.accept();
 }
-
-registerServiceWorker();
